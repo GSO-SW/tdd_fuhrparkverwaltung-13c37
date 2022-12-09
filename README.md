@@ -36,19 +36,19 @@ namespace TestprojektTests
 Beantworten Sie auf Basis der obigen Beschreibung diese Fragen:
 1.	Wie heißt das zu testende Projekt?
 
-   Antwort:
+   Antwort: FuhrparkverwaltungTests
 
 2.	Wie heißt die zu testende Klasse?
 
-   Antwort:
+   Antwort: AutoTests
 
 3.	Sind die Namenskonventionen eingehalten? Falls nein: Welche Verbesserung schlagen Sie vor?
 
-   Antwort: 
+   Antwort: der Projektname (namespace) und der Klassenname (public class ...) sollen etwas mit FuhrparkVerwaltung/Auto-Tests benannt werden. Z. 26 nach der Variable ist ein space.
 
 4.	Wie viele Tests würden im Testexplorer angezeigt werden? (Begründen Sie Ihre Antwort!)
 
-   Antwort:
+   Antwort: 0, TestMethod
 
 5.	Wie würde, ausgehend von diesem Testfall, ein UML-Klassendiagramm für die zu testende Klasse aussehen? (Gerne dürfen Sie hier eine Tabelle einfügen, z.B. mit dem [MarkdownTableGenerator](https://www.tablesgenerator.com/markdown_tables)
 
