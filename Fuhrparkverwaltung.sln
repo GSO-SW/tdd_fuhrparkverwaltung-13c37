@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuhrparkverwaltung", "Fuhrparkverwaltung\Fuhrparkverwaltung.csproj", "{2A74596E-0975-454C-A350-1EC8443293B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuhrparkverwaltungTests", "FuhrparkverwaltungTests\FuhrparkverwaltungTests.csproj", "{3FFD23EE-FCB3-4A95-A8A0-50DBED424CE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuhrparkverwaltungTests", "Fuhrparkverwaltung1\FuhrparkverwaltungTests.csproj", "{FDDA89B8-590E-4E07-8513-263291231035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{2A74596E-0975-454C-A350-1EC8443293B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A74596E-0975-454C-A350-1EC8443293B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A74596E-0975-454C-A350-1EC8443293B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3FFD23EE-FCB3-4A95-A8A0-50DBED424CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FFD23EE-FCB3-4A95-A8A0-50DBED424CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FFD23EE-FCB3-4A95-A8A0-50DBED424CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FFD23EE-FCB3-4A95-A8A0-50DBED424CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDA89B8-590E-4E07-8513-263291231035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDA89B8-590E-4E07-8513-263291231035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDA89B8-590E-4E07-8513-263291231035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDA89B8-590E-4E07-8513-263291231035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
