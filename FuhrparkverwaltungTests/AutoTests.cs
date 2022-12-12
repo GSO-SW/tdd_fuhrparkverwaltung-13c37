@@ -1,24 +1,60 @@
-using Fuhrparkverwaltung;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace FuhrparkverwaltungTests
+namespace Fuhrparkverwaltung
 {
-    [TestClass]
-    public class AutoTests
+    public class Auto
     {
-        [TestMethod]
-        public void Fahren_SteigertKilometerstand()
+        private int kilometerstand;
+        private double tankInhalt;
+        private double tankKapazität;
+        private double verbrauchPro100Km;
+
+        public Auto(int kilometerstand, double tankInhalt, double tankKapazität, double verbrauchPro100Km)
         {
-            //Arrange
-            int kilometerstand = 0;
-            Auto a = new Auto(kilometerstand);
-            int streckeInKilometern = 50;
+            this.kilometerstand = kilometerstand;
+            this.tankInhalt = tankInhalt;
+            this.tankKapazität = tankKapazität;
+            this.verbrauchPro100Km = verbrauchPro100Km;
+        }
 
-            //Act
-            a.Fahren(streckeInKilometern);
+        public void Fahren(int streckeInKilometern)
+        {
+            if (streckeInKilometern > 0)
+            {
+                kilometerstand += streckeInKilometern;
+                double verbrauch = streckeInKilometern * verbrauchPro100Km / 100.0;
+                tankInhalt -= verbrauch;
+            }
+        }
 
-            //Assert
-            Assert.AreEqual(50, a.Kilometerstand);
+        public int Kilometerstand
+        {
+            get
+            {
+                return kilometerstand;
+            }
+        }
+
+        public double TankInhalt
+        {
+            get
+            {
+                return tankInhalt;
+            }
+        }
+
+        public double TankKapazität
+        {
+            get
+            {
+                return tankKapazität;
+            }
+        }
+
+        public double VerbrauchPro100Km
+        {
+            get
+            {
+                return verbrauchPro100Km;
+            }
         }
     }
 }
